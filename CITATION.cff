@@ -33,3 +33,8 @@ keywords:
 license: Apache-2.0
 version: 0.1.0
 date-released: "2026-04-09"
+doi: "10.5281/zenodo.19476940"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19476940"
+    description: "Zenodo archive of CardioWaveAI"

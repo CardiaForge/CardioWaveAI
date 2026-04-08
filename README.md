@@ -1,5 +1,8 @@
 # CardioWaveAI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19476940.svg)](https://doi.org/10.5281/zenodo.19476940)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 A cloud-based cardiac monitoring platform that transforms raw heart rhythm data from wearable devices and medical-grade ECG systems into clinically actionable insights using wavelet-based signal analysis.
 
 ## Overview
@@ -48,7 +51,9 @@ If you use CardioWaveAI in your research, please cite:
   orcid        = {0009-0007-4864-5130},
   title        = {{CardioWaveAI: Wavelet-Based Cardiac Signal Analysis Platform}},
   year         = {2026},
-  url          = {https://github.com/CardioWaveAI/CardioWaveAI},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.19476940},
+  url          = {https://doi.org/10.5281/zenodo.19476940},
   license      = {Apache-2.0}
 }
 ```
