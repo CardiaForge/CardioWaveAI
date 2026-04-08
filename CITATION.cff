@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "CardioWaveAI: Wavelet-Based Cardiac Signal Analysis Platform"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - given-names: Oleksandr
+    family-names: Popov
+    orcid: "https://orcid.org/0009-0007-4864-5130"
+repository-code: "https://github.com/CardioWaveAI/CardioWaveAI"
+url: "https://github.com/CardioWaveAI"
+abstract: >-
+  CardioWaveAI is a cloud-based cardiac monitoring platform that transforms
+  raw heart rhythm data from wearable devices and medical-grade ECG systems
+  into clinically actionable insights using wavelet-based signal analysis.
+  The platform applies multi-scale wavelet decomposition (DWT, CWT, WPT, SWT, WST)
+  to RR interval time series, extracts comprehensive HRV features including
+  standard frequency bands (VLF, LF, HF) and nonlinear measures (sample entropy, DFA),
+  and enables comparison across patients and time frames. Validated against
+  PhysioNet MIT-BIH cardiac databases.
+keywords:
+  - cardiac-analysis
+  - wavelet-transform
+  - heart-rate-variability
+  - HRV
+  - ECG
+  - RR-intervals
+  - discrete-wavelet-transform
+  - continuous-wavelet-transform
+  - wavelet-packet-transform
+  - PhysioNet
+  - microservices
+  - gRPC
+license: Apache-2.0
+version: 0.1.0
+date-released: "2026-04-09"
