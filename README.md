@@ -34,7 +34,7 @@ CardioWaveAI applies multi-scale wavelet decomposition to RR interval time serie
 
 ## Architecture
 
-CardioWaveAI is a polyglot microservices platform built with .NET 10 and Python 3.11, communicating over gRPC. See individual service repositories under the [CardioWaveAI](https://github.com/CardioWaveAI) organization.
+CardioWaveAI is a polyglot microservices platform built with .NET 10 and Python 3.11, communicating over gRPC. See individual service repositories under the [CardiaForge](https://github.com/CardiaForge) organization.
 
 ## Validated Against
 

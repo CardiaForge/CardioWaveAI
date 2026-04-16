@@ -6,8 +6,8 @@ authors:
   - given-names: Oleksandr
     family-names: Popov
     orcid: "https://orcid.org/0009-0007-4864-5130"
-repository-code: "https://github.com/CardioWaveAI/CardioWaveAI"
-url: "https://github.com/CardioWaveAI"
+repository-code: "https://github.com/CardiaForge/CardioWaveAI"
+url: "https://github.com/CardiaForge"
 abstract: >-
   CardioWaveAI is a cloud-based cardiac monitoring platform that transforms
   raw heart rhythm data from wearable devices and medical-grade ECG systems
