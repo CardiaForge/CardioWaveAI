@@ -1,13 +1,15 @@
-# CardioWaveAI
+# CardiaForge
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19476940.svg)](https://doi.org/10.5281/zenodo.19476940)
+> Formerly published as **CardioWaveAI**.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19476939.svg)](https://doi.org/10.5281/zenodo.19476939)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A cloud-based cardiac monitoring platform that transforms raw heart rhythm data from wearable devices and medical-grade ECG systems into clinically actionable insights using wavelet-based signal analysis.
 
 ## Overview
 
-CardioWaveAI applies multi-scale wavelet decomposition to RR interval time series extracted from ECG recordings, enabling Heart Rate Variability (HRV) analysis that goes beyond basic arrhythmia detection. The platform supports comparison across patients and time frames to identify clinically relevant cardiac patterns.
+CardiaForge applies multi-scale wavelet decomposition to RR interval time series extracted from ECG recordings, enabling Heart Rate Variability (HRV) analysis that goes beyond basic arrhythmia detection. The platform supports comparison across patients and time frames to identify clinically relevant cardiac patterns.
 
 ### Wavelet Transforms
 
@@ -34,7 +36,7 @@ CardioWaveAI applies multi-scale wavelet decomposition to RR interval time serie
 
 ## Architecture
 
-CardioWaveAI is a polyglot microservices platform built with .NET 10 and Python 3.11, communicating over gRPC. See individual service repositories under the [CardiaForge](https://github.com/CardiaForge) organization.
+CardiaForge is a polyglot microservices platform built with .NET 10 and Python 3.11, communicating over gRPC. See individual service repositories under the [CardiaForge](https://github.com/CardiaForge) organization.
 
 ## Validated Against
 
@@ -43,17 +45,17 @@ CardioWaveAI is a polyglot microservices platform built with .NET 10 and Python 
 
 ## Citation
 
-If you use CardioWaveAI in your research, please cite:
+If you use CardiaForge in your research, please cite:
 
 ```bibtex
-@software{popov_cardiowaveai_2026,
+@software{popov_cardiaforge_2026,
   author       = {Popov, Oleksandr},
   orcid        = {0009-0007-4864-5130},
-  title        = {{CardioWaveAI: Wavelet-Based Cardiac Signal Analysis Platform}},
+  title        = {{CardiaForge: Wavelet-Based Cardiac Signal Analysis Platform}},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.19476940},
-  url          = {https://doi.org/10.5281/zenodo.19476940},
+  doi          = {10.5281/zenodo.19476939},
+  url          = {https://doi.org/10.5281/zenodo.19476939},
   license      = {Apache-2.0}
 }
 ```

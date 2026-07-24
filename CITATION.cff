@@ -1,15 +1,15 @@
 cff-version: 1.2.0
-title: "CardioWaveAI: Wavelet-Based Cardiac Signal Analysis Platform"
+title: "CardiaForge: Wavelet-Based Cardiac Signal Analysis Platform"
 message: "If you use this software, please cite it using the metadata from this file."
 type: software
 authors:
   - given-names: Oleksandr
     family-names: Popov
     orcid: "https://orcid.org/0009-0007-4864-5130"
-repository-code: "https://github.com/CardiaForge/CardioWaveAI"
+repository-code: "https://github.com/CardiaForge/CardiaForgeAI"
 url: "https://github.com/CardiaForge"
 abstract: >-
-  CardioWaveAI is a cloud-based cardiac monitoring platform that transforms
+  CardiaForge is a cloud-based cardiac monitoring platform that transforms
   raw heart rhythm data from wearable devices and medical-grade ECG systems
   into clinically actionable insights using wavelet-based signal analysis.
   The platform applies multi-scale wavelet decomposition (DWT, CWT, WPT, SWT, WST)
@@ -31,10 +31,13 @@ keywords:
   - microservices
   - gRPC
 license: Apache-2.0
-version: 0.1.0
-date-released: "2026-04-09"
-doi: "10.5281/zenodo.19476940"
+version: 1.0.0
+date-released: "2026-07-24"
+doi: "10.5281/zenodo.19476939"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.19476939"
+    description: "Concept DOI (resolves to the latest version) of CardiaForge"
+  - type: doi
     value: "10.5281/zenodo.19476940"
-    description: "Zenodo archive of CardioWaveAI"
+    description: "Version DOI of the v0.1.0 release, published as CardioWaveAI"
